@@ -8,5 +8,6 @@ gem "hiredis"
 gem "rack-test"
 gem "sinatra"
 gem "sidekiq"
+gem "activerecord"
 
 gemspec :path => "../"
