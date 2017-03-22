@@ -61,6 +61,7 @@ if RUBY_VERSION < '2.4.0'
       gem 'sidekiq'
       gem 'activejob'
     end
+  end
 
   if RUBY_VERSION >= '2.2.2' && RUBY_PLATFORM != 'java'
     appraise 'rails5-mysql2' do
