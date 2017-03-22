@@ -53,6 +53,7 @@ if RUBY_VERSION < "2.4.0"
     gem "pg", platform: :ruby
     gem 'activerecord-jdbcpostgresql-adapter', platform: :jruby
     gem "sidekiq"
+    gem "activejob"
   end
 
   if RUBY_VERSION >= "2.2.2" && RUBY_PLATFORM != "java"
@@ -76,6 +77,7 @@ if RUBY_VERSION < "2.4.0"
       gem "rails", "5.0.1"
       gem "pg", platform: :ruby
       gem "sidekiq"
+      gem "activejob"
     end
   end
 end
