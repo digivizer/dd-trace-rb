@@ -93,6 +93,7 @@ appraise 'contrib' do
   gem 'hiredis'
   gem 'rack-test'
   gem 'sinatra'
+  gem 'activerecord'
 end
 
 if RUBY_VERSION >= '2.0.0'
